@@ -1,0 +1,143 @@
+		html, body, h1, h2, h3, h4, yl, ol, li, p, a {
+			padding: 0;
+			border: 0;
+			margin: 0;
+			font-family: "Times New Roman", Times, serif;
+
+		
+		}
+		p{
+			color: #444444;
+			margin-bottom: 10px;
+			font-size: 18px;
+		}
+		ol{
+			padding-left: 20px;
+		
+		}
+		h1 {
+			text-align:center;
+			color: #000000;
+			margin: 0 0 15px 0;
+			font-size: 40px;
+		
+		}
+		h2 {
+			text-align:center;
+			color: #000000;
+			margin: 15px 0 15px;
+			font-size: 30px;
+		
+		}
+		h3 {
+			color: #334433;
+			margin: 25px 0 0 0;
+			border-bottom: 1px solid #aaaaaa;
+		
+		}
+		h4 {
+			color: #666666;
+			margin: 5px 0 10px 0;
+			font-size: 15px;
+		}
+		a {
+			color: #004400;
+			text-decoration: none;
+		
+		}
+		a:hover {
+			text-decoration:bold;
+			
+		}
+		ul {
+		padding: 0 0 0 30px;
+		
+		}
+		li {
+			margin-bottom: 15px;
+		
+		}
+		body {
+			padding: 0;
+			opacity: 0;
+			background-image: url(image/grass.png);
+			background-repeat: repeat;
+			background-position: top left;
+			transition: opacity 1s;
+		}
+
+		body:hover {
+			opacity: 1;
+			
+		}
+		img {
+			padding: 15px;
+			display: block;
+			margin: 0px auto;
+			
+			
+		}
+		.nav {
+			text-align:center;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			
+			
+		}
+		.nav li {
+			margin: 10px 20px 15px 5px;
+			display: inline-block;
+			background-color: #FFFFFF;
+		
+		}
+		.person {
+			padding: 5px;
+			border: 1px solid #009cff;
+			margin: 5px;
+			
+		}
+		.role {
+			color: #99AA99;
+			font-style:italic;
+			
+		}
+		.name {
+			color: #557755;
+			font-style:bold;
+		}
+		.content{
+			background-color: #FFFFFF;
+			padding: 15px;
+			width: 600px;
+			margin: 0 auto;
+			
+		}
+		.header {
+			width: 800px;
+			background-color: #FFFFFF;
+			margin: 15px auto 15px auto;
+			size: fixed;
+			
+		}
+		.section {
+			padding: 10px 5px 10px 5px;
+			border: 1px dashed #009cff;
+			margin: 10px;
+			
+		}
+		.header-link {
+			padding: 2px;
+			margin: 5px;
+			background-color: #F5F5F5;
+			border: 1px solid #555555
+			
+		}
+		.header-link:hover {
+			border: 2px solid #999999;
+			
+		}
+		.sentence {
+			text-indent: 50px;
+			
+		}
