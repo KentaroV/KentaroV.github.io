@@ -46,7 +46,7 @@
 		
 		}
 		a:hover {
-			text-decoration:bold;
+			text-decoration:underline;
 			
 		}
 		ul {
@@ -64,6 +64,7 @@
 			background-repeat: repeat;
 			background-position: top left;
 			transition: opacity 1s;
+			margin: 10px;
 		}
 
 		body:hover {
@@ -115,7 +116,7 @@
 		}
 		.header {
 			width: 800px;
-			background-color: #FFFFFF;
+			background-color: ;
 			margin: 15px auto 15px auto;
 			size: fixed;
 			
@@ -139,5 +140,23 @@
 		}
 		.sentence {
 			text-indent: 50px;
+			
+		}
+		.footer {
+			padding: 3px;
+			margin: 20px auto 0 auto;
+			width: 100%;
+			display: block;
+			background:#FFFFFF;
+			border-top:1px solid #AABBAA;
+			text-shadow:1px 1px 0 rgba(255,255,255,0.6);
+			
+		}
+		.contact {
+			text-decoration: none;
+			display: inline;
+		}
+		.footer h3 {
+			margin: 5px;
 			
 		}
